@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .a1,.a2,.a3,.a4,.a5,.a6,.a7,.a8,.a9,.a10,.a11,.a12,.a13,.a14{
+        color: slategray;
+      }
+      .b1,.b2,.b3,.b4{
+        color:black;
+      }
+      #d1,#d2,#d3,#d4,#d5,#d6,#d7,#d8,#d9,#d10,#d11,#d12{
+        border: 1px solid rgb(255, 255, 255);
+        height:300px;
+        width:250px;
+        margin-left: 15px;
+      }
+      #i1,#i2,#i3,#i4,#i5,#i6,#i7,#i8{
+        height:200px;
+        width:246px;
+      }
+      #s1,#s2{
+        border: 1px solid rgb(255, 255, 255);
+        height:550px;
+        width:550px;
+        margin-left: 15px;
+      }
+      .n1{
+        height: 60px;
+        width: 100%;
+        background-color: rgb(43, 75, 254);
+        margin-top: 50px;
+      }
+      button{
+        border-radius: 50px ;
+        background-color: rgb(43, 75, 254);
+        border: 1px solid white;
+        color:white;
+      }
+      #anc1:hover{
+        color:orange;
+      }
+      #anc1{
+        text-decoration: none;
+      } 
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div>
+<nav class="navbar  bg-primary cointainer">
+
+<nav class="bui-header_main ">
+<nav class="bui-header_logo " ><h4 class="text-white  ml-300">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Booking.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a  data-bs-toggle="tooltip" data-bs-placement="bottom" title="Choose your currency" class="text-white" style="text-decoration: none;"> INR</a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Choose your Language"  >
+  <img src="https://static.vecteezy.com/system/resources/thumbnails/002/379/753/small/india-national-flag-circle-button-icon-simple-flag-official-colors-and-proportion-correctly-flat-illustration-vector.jpg" height="35" width="35"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://th.bing.com/th/id/OIP.GmTPM1R71BSCk6Ydxy0yoAHaHa?w=203&h=203&c=7&r=0&o=5&dpr=1.1&pid=1.7 "height="30" width="30">&nbsp;&nbsp;&nbsp;&nbsp;
+  <button class="bg-primary text-white outline-primary"><h6>List your property</h6></button>
+  <button class="bg-light text-primary outline-white"><h6>Register</h6></button>
+  <button class="bg-light text-primary outline-white"><h6>Sign in</button>
+</div>
+<div>
+   <center> <p class="text-dark bg-white center">In patership with</p><img src="imgs\msn.png" height="90px" width="100px">
+  </div>
+ <div class="p-2 bg-primary text-white">
+  <h2 class="text-center">Find your next stay</h2>
+  <p class="text-center">Search deals on hotels,homes &much more...</p>
+ </div>
+ <nav class="navbar navbar-expand-sm bg-light justify-content-center">
+  
+</nav>
+
+<div class="container">
+  
+<form class="d-flex width-20%">
+  <img src="https://thumbs.dreamstime.com/b/simbolo-del-segno-dell-icona-di-vettore-dello-scuolabus-126202764.jpg"height="30" width="30"><input class="form-control " type="text" placeholder="Where are you going?">
+  <img src="https://th.bing.com/th/id/OIP.B017QnZy445QDc_gSy_FtAAAAA?pid=ImgDet&w=199&h=199&c=7&dpr=1.1" height="30" width="30"><input class="form-control " type="text" placeholder="check-in-check-out">
+  <input class="form-control " type="text" placeholder="2adults.0children.1room">
+  <button class="btn btn-primary" type="button">Search</button>
+
+</form>
+</div>
+<div class="container">
+<div class="form-check mb-3">
+  <label class="form-check-label">
+    <input class="form-check-input" type="checkbox" >I'm traveling for work 
+  </label>
+</div>
+<div>
+  <div class="container">
+  <table class="table table-bordered table-gray ">
+   <td class="p-8"><img src="https://www.monabanq.com/fr/images/svg-icons/info.svg" height="20px" width="20px bg-#ffaa00">&nbsp;&nbsp;&nbsp;Get the advice you need.Check the latest COVID-19 restrictions before you travel.<p class="text-primary text-inline">Learn more.</p></td>
+  </table>
+</div>
+<div class="cointainer-fluid">
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+    <button class="carousel-control-prev " type="button" data-bs-target="#demo" data-bs-slide="prev" >
+      <span class="carousel-control-prev-icon bg-light bg-circle"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon bg-light bg-circle"></span>
+    </button>
+  <h2>Browse by property type </h2>
+  
+  <ul class="nav nav-pills p-4">
+<div id="d1">
+  <img id="i1" src="https://q-xx.bstatic.com/xdata/images/xphoto/263x210/57584488.jpeg?k=d8d4706fc72ee789d870eb6b05c0e546fd4ad85d72a3af3e30fb80ca72f0ba57&o=">
+  <p><b>Hotels</b></p>
+  <p class="a1">954,296hotels</p>
+</div>
+<div id="d2">
+  <img id="i2" src="https://q-xx.bstatic.com/xdata/images/xphoto/263x210/119467716.jpeg?k=63b69100225782d08fbd4d0205bf949c0be894ab946a0366edb8ad48e9c0ef46&o=">
+  <p><b>Apartments</b></p>
+  <p class="a2">1,035,069 apartments</p>
+</div>
+<div id="d3">
+  <img id="i3" src="https://q-xx.bstatic.com/xdata/images/xphoto/263x210/45450084.jpeg?k=f8c2954e867a1dd4b479909c49528531dcfb676d8fbc0d60f51d7b51bb32d1d9&o=">
+  <p><b>Resorts</b></p>
+  <p class="a3">19,108 resorts</p>
+  </div>
+<div id="d4">
+  <img id="i4" src="https://q-xx.bstatic.com/xdata/images/xphoto/263x210/100235855.jpeg?k=61ef6692e05b5971e2e8dc75687f844e6d0ad295a9a5ace17f7c713f167e61b5&o=">
+  <p><b>Villas</b></p>
+  <p class="a4">560,475 resorts</p> 
+  </div>
+</div>
+<ul class="nav nav-pills p-4">
+<div id="d5">
+  <img id="i5" src="https://r-xx.bstatic.com/xdata/images/xphoto/263x210/52979454.jpeg?k=98337a30d1016ebce1cbebb9e24ba4585f535438bc455ff9efcaee27960ac8b2&o=">
+  <p><b>Cabins</b></p>
+  <p class="a5">41,441 cabins</p>
+  </div> 
+<div id="d6">
+  <img id="i6" src="https://q-xx.bstatic.com/xdata/images/xphoto/263x210/45450074.jpeg?k=7039b03a94f3b99262c4b3054b0edcbbb91e9dade85b6efc880d45288a06c126&o=">
+  <p><b>Cottages</b></p>
+  <p class="a6">611,617 cottages</p>
+</div>
+<div id="d7">
+  <img id="i7" src="https://q-xx.bstatic.com/xdata/images/xphoto/263x210/45450090.jpeg?k=52f6b8190edb5a9c91528f8e0f875752ce55a6beb35dc62873601e57944990e4&o=">
+  <p><b>Glamping</b></p>
+  <p class="a7">14,833 Glamping sites</p>
+</div>
+<div id="d8">
+  <img id="i8" src="https://q-xx.bstatic.com/xdata/images/xphoto/263x210/45450279.jpeg?k=cb9ab85ffe439f3030e00281f2d52583a398bf076e54f00f746e1d1baf62bf6e&o=">
+  <p><b>Roykans</b></p>
+  <p class="a8">22,08 Roykans</p>
+  </ul>
+</div>
+<ul class="nav nav-pills p-4">
+<div id="s1">
+  <img src="https://cf.bstatic.com/xdata/images/xphoto/540x405/207040983.webp?k=101ce52ac15cacd667ff96b8b618dac02f325cea3bb9094016864d0abeec2e40&o=">
+  <p><b>8 places to celebrate sonskran in Thailand</b></p>
+  <p class="a9">soak up Thailand's most important holiday-and the world's biggest water fight</p>
+</div>
+<div id="s2">
+  <img src="https://cf.bstatic.com/xdata/images/xphoto/540x405/204288001.webp?k=eefb95e93232c14131e5d4a053f1b4d7c52dfb9f727fa4f427db0968098beac1&o=">
+  <p ><b>10 unmisrable music festivals in the US</b></p>
+  <p class="a10">Discover new artists & make incredible memories</p>
+</div>
+  </ul>
+</div>
+
+
+<div class="cointainer">
+    <h2>Homes guests lover</h2>
+    <ul class="nav nav-pills p-4">
+  <div id="d9">
+    <img src="https://cf.bstatic.com/xdata/images/hotel/square600/13125860.webp?k=e148feeb802ac3d28d1391dad9e4cf1e12d9231f897d0b53ca067bde8a9d3355&o=&s=1" height="200" width="200">
+    <p><b>Aparthotel stare miasto</b></p>
+    <p class="a11">Old Town,Poland,Krakow<br>Starts from<img src="https://th.bing.com/th/id/OIP.eThyP16NHHO1_xgVp9rAAQHaD4?w=201&h=105&c=7&r=0&o=5&dpr=1.1&pid=1.7"height="15" width="20"><b id="b1">13,249</b></p>
+  </div> 
+  <div  id="d10">
+    <img src="https://cf.bstatic.com/xdata/images/hotel/square600/87428762.webp?k=9a065fcd92168145d8c8358701662c76793535597b678efc8f6921c8e3c188e6&o=&s=1" height="200" width="200">
+    <p><b>7Seasons apartments Budapest</b></p>
+    <p class="a12">06.Terezvaros,Hungary,Budapest<br>Starts from<img src="https://th.bing.com/th/id/OIP.eThyP16NHHO1_xgVp9rAAQHaD4?w=201&h=105&c=7&r=0&o=5&dpr=1.1&pid=1.7"height="15" width="20"></i><b id="b2">10,735</b></p>
+  </div> 
+  <div  id="d11">
+    <img src="https://cf.bstatic.com/xdata/images/hotel/square600/64768746.webp?k=bcadbce621d8b9ab9941b6dc1fa4d7905e1fdfb52cdf45798fc68675e3e53a53&o=&s=1" height="200" width="200">
+    <p><b>Zoku Amsterdam</b></p>
+    <p class="a13"><Amsterdam City Center,Natherlamd<br>Amsterdam<br>Starts from<img src="https://th.bing.com/th/id/OIP.eThyP16NHHO1_xgVp9rAAQHaD4?w=201&h=105&c=7&r=0&o=5&dpr=1.1&pid=1.7"height="15" width="20"></i><b id="b3">36,630</b></p>
+    </div>
+  <div  id="d12">
+  <img src="https://cf.bstatic.com/xdata/images/hotel/square600/34405073.webp?k=ca1663aa4fabefe87287d7385b6f2bb62d556220f3ba92248c411120a2f41118&o=&s=1" height="200" width="200">
+  <p><b>Sugar Loft Apartments</b></p>
+  <p class="a14">Santa Teresa,Bezil,Rio de Janeiro(Rio<br>De Janeiro)<br>Starts from<img src="https://th.bing.com/th/id/OIP.eThyP16NHHO1_xgVp9rAAQHaD4?w=201&h=105&c=7&r=0&o=5&dpr=1.1&pid=1.7"height="15" width="20"></i><b id="b4">36,630</b></p>
+  </div>
+</ul>
+</div>
+</ul>
+</div>
+</div>
+
+ <center> <div class="n1">
+  <button>List your Properties</button>
+ </div>
+<div class="bg-primary text-white w-100 ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <a href="#" class="text-white "><b>Mobile Version</b></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <a href="#" class="text-white "><b>Your Account</b></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <a href="#" class="text-white "><b>Make chnanges online to your booking</b></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <a href="#" class="text-white "><b>Customer Service Help</b></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <a href="#" class="text-white "><b>Become and affliate</b></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <a href="#" class="text-white "><b>Booking.com for Business</b></a>
+</div>
+<footer class="bg-light text-primary ">
+  <div  class="container-fluid " style="justify-content: center;" >
+    <div class="row">
+      <div class="col-sm-2 p-3 bg-light text-primary">
+       <a href="https://www.booking.com/country.en-gb.html?aid=397645&label=bin859jc-1FCAEoggI46AdIM1gDaGyIAQGYAQm4ARfIAQzYAQHoAQH4AQ2IAgGoAgO4AreU2qEGwAIB0gIkMWM2ZTAzNzktZTE5YS00ZGUyLTljZTctNmQ2NjcxODk1ZTFh2AIG4AIB&sid=fbd4a51fd5c62fa22c962286f59cd003" id="anc1">Countries<br></a>
+        <a href="https://www.booking.com/region.en-gb.html?aid=397645&label=bin859jc-1FCAEoggI46AdIM1gDaGyIAQGYAQm4ARfIAQzYAQHoAQH4AQ2IAgGoAgO4AreU2qEGwAIB0gIkMWM2ZTAzNzktZTE5YS00ZGUyLTljZTctNmQ2NjcxODk1ZTFh2AIG4AIB&sid=fbd4a51fd5c62fa22c962286f59cd003" id="anc1">RegionsM<br></a>
+        <a href="https://www.booking.com/city.en-gb.html?aid=397645&label=bin859jc-1FCAEoggI46AdIM1gDaGyIAQGYAQm4ARfIAQzYAQHoAQH4AQ2IAgGoAgO4AreU2qEGwAIB0gIkMWM2ZTAzNzktZTE5YS00ZGUyLTljZTctNmQ2NjcxODk1ZTFh2AIG4AIB&sid=fbd4a51fd5c62fa22c962286f59cd003" id="anc1">Cities<br></a>
+        <a href="https://www.booking.com/district.en-gb.html?aid=397645&label=bin859jc-1FCAEoggI46AdIM1gDaGyIAQGYAQm4ARfIAQzYAQHoAQH4AQ2IAgGoAgO4AreU2qEGwAIB0gIkMWM2ZTAzNzktZTE5YS00ZGUyLTljZTctNmQ2NjcxODk1ZTFh2AIG4AIB&sid=fbd4a51fd5c62fa22c962286f59cd003" id="anc1">Districts<br></a>
+        <a href="https://www.booking.com/airport.en-gb.html?aid=397645&label=bin859jc-1FCAEoggI46AdIM1gDaGyIAQGYAQm4ARfIAQzYAQHoAQH4AQ2IAgGoAgO4AreU2qEGwAIB0gIkMWM2ZTAzNzktZTE5YS00ZGUyLTljZTctNmQ2NjcxODk1ZTFh2AIG4AIB&sid=fbd4a51fd5c62fa22c962286f59cd003" id="anc1">Airports<br></a>
+        <a href="https://www.booking.com/hotel/index.en-gb.html?aid=397645&label=bin859jc-1FCAEoggI46AdIM1gDaGyIAQGYAQm4ARfIAQzYAQHoAQH4AQ2IAgGoAgO4AreU2qEGwAIB0gIkMWM2ZTAzNzktZTE5YS00ZGUyLTljZTctNmQ2NjcxODk1ZTFh2AIG4AIB&sid=fbd4a51fd5c62fa22c962286f59cd003" id="anc1">Hotels<br></a>
+        <a href="https://www.booking.com/landmark.en-gb.html?aid=397645&label=bin859jc-1FCAEoggI46AdIM1gDaGyIAQGYAQm4ARfIAQzYAQHoAQH4AQ2IAgGoAgO4AreU2qEGwAIB0gIkMWM2ZTAzNzktZTE5YS00ZGUyLTljZTctNmQ2NjcxODk1ZTFh2AIG4AIB&sid=fbd4a51fd5c62fa22c962286f59cd003" id="anc1">Places of interest<br></a>
+      </div>
+  <div class="col-sm-2 p-3 bg-light text-primary">
+        <a href="https://www.booking.com/booking-home/index.en-gb.html?aid=397645&label=bin859jc-1FCAEoggI46AdIM1gDaGyIAQGYAQm4ARfIAQzYAQHoAQH4AQ2IAgGoAgO4AreU2qEGwAIB0gIkMWM2ZTAzNzktZTE5YS00ZGUyLTljZTctNmQ2NjcxODk1ZTFh2AIG4AIB&sid=fbd4a51fd5c62fa22c962286f59cd003" id="anc1">Homes<br></a>
+        <a href="https://www.booking.com/booking-home/index.en-gb.html?aid=397645&label=bin859jc-1FCAEoggI46AdIM1gDaGyIAQGYAQm4ARfIAQzYAQHoAQH4AQ2IAgGoAgO4AreU2qEGwAIB0gIkMWM2ZTAzNzktZTE5YS00ZGUyLTljZTctNmQ2NjcxODk1ZTFh2AIG4AIB&sid=fbd4a51fd5c62fa22c962286f59cd003" id="anc1">Apartments<br></a>
+        <a href="https://www.booking.com/booking-home/index.en-gb.html?aid=397645&label=bin859jc-1FCAEoggI46AdIM1gDaGyIAQGYAQm4ARfIAQzYAQHoAQH4AQ2IAgGoAgO4AreU2qEGwAIB0gIkMWM2ZTAzNzktZTE5YS00ZGUyLTljZTctNmQ2NjcxODk1ZTFh2AIG4AIB&sid=fbd4a51fd5c62fa22c962286f59cd003" id="anc1">Resorts<br></a>
+        <a href="https://www.booking.com/villas/index.en-gb.html?aid=397645&label=bin859jc-1FCAEoggI46AdIM1gDaGyIAQGYAQm4ARfIAQzYAQHoAQH4AQ2IAgGoAgO4AreU2qEGwAIB0gIkMWM2ZTAzNzktZTE5YS00ZGUyLTljZTctNmQ2NjcxODk1ZTFh2AIG4AIB&sid=fbd4a51fd5c62fa22c962286f59cd003" id="anc1">Villas<br></a>
+        <a href="https://www.booking.com/hostels/index.en-gb.html?aid=397645&label=bin859jc-1FCAEoggI46AdIM1gDaGyIAQGYAQm4ARfIAQzYAQHoAQH4AQ2IAgGoAgO4AreU2qEGwAIB0gIkMWM2ZTAzNzktZTE5YS00ZGUyLTljZTctNmQ2NjcxODk1ZTFh2AIG4AIB&sid=fbd4a51fd5c62fa22c962286f59cd003" id="anc1">Hostels<br></a>
+        <a href="https://www.booking.com/bed-and-breakfast/index.en-gb.html?aid=397645&label=bin859jc-1FCAEoggI46AdIM1gDaGyIAQGYAQm4ARfIAQzYAQHoAQH4AQ2IAgGoAgO4AreU2qEGwAIB0gIkMWM2ZTAzNzktZTE5YS00ZGUyLTljZTctNmQ2NjcxODk1ZTFh2AIG4AIB&sid=fbd4a51fd5c62fa22c962286f59cd003" id="anc1">B&Bs<br></a>
+        <a href="https://www.booking.com/guest-house/index.en-gb.html?aid=397645&label=bin859jc-1FCAEoggI46AdIM1gDaGyIAQGYAQm4ARfIAQzYAQHoAQH4AQ2IAgGoAgO4AreU2qEGwAIB0gIkMWM2ZTAzNzktZTE5YS00ZGUyLTljZTctNmQ2NjcxODk1ZTFh2AIG4AIB&sid=fbd4a51fd5c62fa22c962286f59cd003" id="anc1">Guest houses<br></a>
+  </div>
+  <div class="col-sm-2 p-3 bg-light text-primary">
+        <a href="https://www.booking.com/accommodations.en-gb.html?aid=397645&label=bin859jc-1BCAEoggI46AdIM1gDaGyIAQGYAQm4ARfIAQzYAQHoAQGIAgGoAgO4AtmT2qEGwAIB0gIkYjU3MjMxNjEtYzdhYS00MzdmLTk1NWEtZmI2NWQyZGE0ODM52AIF4AIB&sid=fbd4a51fd5c62fa22c962286f59cd003" id="anc1">Unique places to stay<br></a>
+        <a  href="https://www.booking.com/accommodations.en-gb.html?aid=397645&label=bin859jc-1BCAEoggI46AdIM1gDaGyIAQGYAQm4ARfIAQzYAQHoAQGIAgGoAgO4AtmT2qEGwAIB0gIkYjU3MjMxNjEtYzdhYS00MzdmLTk1NWEtZmI2NWQyZGE0ODM52AIF4AIB&sid=fbd4a51fd5c62fa22c962286f59cd003" id="anc1">All destinations<br></a>
+        <a  href="https://www.booking.com/flights/sitemap.en-gb.html?aid=397645&label=bin859jc-1BCAEoggI46AdIM1gDaGyIAQGYAQm4ARfIAQzYAQHoAQGIAgGoAgO4AreU2qEGwAIB0gIkMWM2ZTAzNzktZTE5YS00ZGUyLTljZTctNmQ2NjcxODk1ZTFh2AIF4AIB&sid=fbd4a51fd5c62fa22c962286f59cd003" id="anc1">All flight destinations<br></a>
+        <a  href="https://www.booking.com/discover.en-gb.html?aid=397645&label=bin859jc-1BCAEoggI46AdIM1gDaGyIAQGYAQm4ARfIAQzYAQHoAQGIAgGoAgO4AreU2qEGwAIB0gIkMWM2ZTAzNzktZTE5YS00ZGUyLTljZTctNmQ2NjcxODk1ZTFh2AIF4AIB&sid=fbd4a51fd5c62fa22c962286f59cd003" id="anc1">Reviews<br></a>
+        <a  href="https://www.booking.com/reviews.en-gb.html?aid=397645&label=bin859jc-1BCAEoggI46AdIM1gDaGyIAQGYAQm4ARfIAQzYAQHoAQGIAgGoAgO4AreU2qEGwAIB0gIkMWM2ZTAzNzktZTE5YS00ZGUyLTljZTctNmQ2NjcxODk1ZTFh2AIF4AIB&sid=fbd4a51fd5c62fa22c962286f59cd003" id="anc1">Discover monthly stays<br></a>
+        <a  href="https://www.booking.com/deals/index.en-gb.html?aid=397645&label=bin859jc-1BCAEoggI46AdIM1gDaGyIAQGYAQm4ARfIAQzYAQHoAQGIAgGoAgO4AreU2qEGwAIB0gIkMWM2ZTAzNzktZTE5YS00ZGUyLTljZTctNmQ2NjcxODk1ZTFh2AIF4AIB&sid=fbd4a51fd5c62fa22c962286f59cd003" id="anc1">Seasonal and holiday deals<br></a>
+        <a  href="https://www.booking.com/traveller-awards/index.en-gb.html?aid=397645&label=bin859jc-1BCAEoggI46AdIM1gDaGyIAQGYAQm4ARfIAQzYAQHoAQGIAgGoAgO4AreU2qEGwAIB0gIkMWM2ZTAzNzktZTE5YS00ZGUyLTljZTctNmQ2NjcxODk1ZTFh2AIF4AIB&sid=fbd4a51fd5c62fa22c962286f59cd003" id="anc1">Traveller Review Awards<br></a>
+    </div>
+    <div class="col-sm-2 p-3 bg-light text-primary">
+      <a href="https://www.booking.com/cars/index.en-gb.html?label=gen173bo-1DEgRjYXJzKIICOOgHSAlYA2hsiAEBmAEJuAEXyAEM2AED6AEB-AEDiAIBmAICqAIDuALIj9qhBsACAdICJDdiMWU4NDY0LTZkM2UtNDNiNC05NDQ3LTlhNGI0MzliODNhONgCBOACAQ&sid=fbd4a51fd5c62fa22c962286f59cd003&adplat=footer&" id="anc1">Car rental<br></a>
+      <a href="https://www.booking.com/flights/index.en.html?aid=397645&sid=fbd4a51fd5c62fa22c962286f59cd003&from=booking&" id="anc1">Flight finder<br></a>
+      <a href="https://www.opentable.co.uk/?ref=13850" id="anc1">Restaurant reservations<br></a>
+      <a href="https://www.booking.com/affiliate-program/v2/index.en-gb.html?aid=397645&label=bin859jc-1BCAEoggI46AdIM1gDaGyIAQGYAQm4ARfIAQzYAQHoAQGIAgGoAgO4AoCQ2qEGwAIB0gIkNWQ3NzQ5NmYtZDI0Zi00NzY4LTgzYTctOGUwZGE4Y2EzYzE42AIF4AIB&sid=fbd4a51fd5c62fa22c962286f59cd003&utm_content=travel-agents-link&utm_source=booking.com&utm_medium=referral&utm_campaign=booking-footer" id="anc1">Booking.com for Travel Agents<br></a>
+    </div>
+    <div class="col-sm-2 p-3 bg-light text-primary"> 
+    <a href="https://www.booking.com/covid-19.en-us.html?aid=1535084&label=enin-edge-ntp-topsites-curate-ana&sid=fbd4a51fd5c62fa22c962286f59cd003" id="anc1">Coronavirus (COVID-19) FAQs<br></a>
+    <a href="https://www.booking.com/content/about.en-us.html?aid=1535084&label=enin-edge-ntp-topsites-curate-ana&sid=fbd4a51fd5c62fa22c962286f59cd003" id="anc1">About Booking.com<br></a>
+    <a href="https://secure.booking.com/help?aid=397645&label=bin859jc-1DCAEoggI46AdIM1gDaGyIAQGYATG4ARfIAQzYAQPoAQH4AQKIAgGoAgO4ApSF2qEGwAIB0gIkZTZhNzI1ZWEtOTBiYy00ODAyLWIwYmMtNWMxMmE5ZjVmOWFm2AIE4AIB&sid=fbd4a51fd5c62fa22c962286f59cd003&source=footer_navigation" id="anc1">Customer Service Help<br></a>
+    <a href="https://partner.booking.com/en-gb?utm_campaign=footer_list&utm_medium=frontend_footer&utm_source=booking.com" id="anc1">Partner help<br></a>
+    <a href="https://careers.booking.com/?utm_source=corporate&utm_medium=footer"  id="anc1">Careers<br></a>
+    <a href="https://www.sustainability.booking.com/" id="anc1">Sustainability<br></a>
+    <a href="https://news.booking.com/en-in/" id="anc1">Press Center<br></a>
+    <a href="https://www.booking.com/trust-and-safety.html?aid=397645&label=bin859jc-1DCAEoggI46AdIM1gDaGyIAQGYATG4ARfIAQzYAQPoAQH4AQKIAgGoAgO4ApSF2qEGwAIB0gIkZTZhNzI1ZWEtOTBiYy00ODAyLWIwYmMtNWMxMmE5ZjVmOWFm2AIE4AIB&sid=fbd4a51fd5c62fa22c962286f59cd003&utm_medium=web_frontend&utm_source=footer_menu" id="anc1">Safety Resource Center<br></a>
+    <a href="https://www.bookingholdings.com/" id="anc1">Investor relations<br></a>
+    <a href="https://www.booking.com/content/terms.html?aid=397645&label=bin859jc-1DCAEoggI46AdIM1gDaGyIAQGYATG4ARfIAQzYAQPoAQH4AQKIAgGoAgO4ApSF2qEGwAIB0gIkZTZhNzI1ZWEtOTBiYy00ODAyLWIwYmMtNWMxMmE5ZjVmOWFm2AIE4AIB&sid=fbd4a51fd5c62fa22c962286f59cd003" id="anc1">Terms & Conditions<br></a>
+    <a href="https://secure.booking.com/dispute_resolution.html?aid=397645&label=bin859jc-1DCAEoggI46AdIM1gDaGyIAQGYATG4ARfIAQzYAQPoAQH4AQKIAgGoAgO4ApSF2qEGwAIB0gIkZTZhNzI1ZWEtOTBiYy00ODAyLWIwYmMtNWMxMmE5ZjVmOWFm2AIE4AIB&sid=fbd4a51fd5c62fa22c962286f59cd003" id="anc1">Partner dispute<br></a>
+    <a href="https://www.booking.com/content/how_we_work.html?aid=397645&label=bin859jc-1DCAEoggI46AdIM1gDaGyIAQGYATG4ARfIAQzYAQPoAQH4AQKIAgGoAgO4ApSF2qEGwAIB0gIkZTZhNzI1ZWEtOTBiYy00ODAyLWIwYmMtNWMxMmE5ZjVmOWFm2AIE4AIB&sid=fbd4a51fd5c62fa22c962286f59cd003" id="anc1">How We Work<br></a>
+    <a href="https://www.booking.com/content/privacy.html?aid=397645&label=bin859jc-1DCAEoggI46AdIM1gDaGyIAQGYATG4ARfIAQzYAQPoAQH4AQKIAgGoAgO4ApSF2qEGwAIB0gIkZTZhNzI1ZWEtOTBiYy00ODAyLWIwYmMtNWMxMmE5ZjVmOWFm2AIE4AIB&sid=fbd4a51fd5c62fa22c962286f59cd003" id="anc1">Privacy & cookie statement<br></a>
+    <a href="https://www.bookingholdings.com/about/compliance-and-ethics/" id="anc1">MSA statement<br></a>
+    <a href="https://www.booking.com/content/contact-us.html?aid=397645&label=bin859jc-1DCAEoggI46AdIM1gDaGyIAQGYATG4ARfIAQzYAQPoAQH4AQKIAgGoAgO4ApSF2qEGwAIB0gIkZTZhNzI1ZWEtOTBiYy00ODAyLWIwYmMtNWMxMmE5ZjVmOWFm2AIE4AIB&sid=fbd4a51fd5c62fa22c962286f59cd003"id="anc1">Corporate contact<br></a>
+  </div>
+  </div>
+  </div>
+ <center><div class="container" style="justify-content: center;"><a href="https://account.booking.com/sign-in?op_token=EgVvYXV0aCKkAQoUNlo3Mm9IT2QzNk5uN3prM3BpcmgSCWF1dGhvcml6ZRoaaHR0cHM6Ly9hZG1pbi5ib29raW5nLmNvbS8qX3sidXRtX3NvdXJjZSI6ImV4dHJhbmV0X2xvZ2luX2Zvb3RlciIsInV0bV9tZWRpdW0iOiJmcm9udGVuZCIsInV0bV9jYW1wYWlnbiI6ImxvZ2luX2Zvb3Rlcl92MCJ9QgRjb2RlKkQwkcaisLCdJjoAQjIKFWV4dHJhbmV0X2xvZ2luX2Zvb3RlchIIZnJvbnRlbmQaD2xvZ2luX2Zvb3Rlcl92MFi3nNqhBg" id="anc1"> Extranet Log-in</div><br></a</div>
+<p class="text-dark align:left">Copyright © 1996–2023 Booking.com™. All rights reserved.</p></div><br>
+<p class="text-dark" >Booking.com is part of Booking Holdings Inc., the world leader in online travel and related services.</p>
+<div>
+  <img src="https://th.bing.com/th/id/OIP.dDaRbZqeIwcCRre0hRs9EwHaEK?w=308&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" height="100" width="150">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://th.bing.com/th/id/OIP.XJ8L7xuX4G12IP1jHmloeQHaBd?w=320&h=68&c=7&r=0&o=5&dpr=1.1&pid=1.7" height="50" width="150">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://th.bing.com/th/id/OIP.sLMZ-Jc0_hBVLtB9y6itlAHaEK?w=322&h=181&c=7&r=0&o=5&dpr=1.1&pid=1.7" height="50" width="150">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://th.bing.com/th/id/OIP.98pPK_T_7CaElJ5g00q5VwHaD4?w=322&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" height="50" width="150">&nbsp;&nbsp;&nbsp;
+  <img src="https://th.bing.com/th/id/OIP.pnvkM2oOZjNPQN22z7YY5wHaCE?w=343&h=98&c=7&r=0&o=5&dpr=1.1&pid=1.7" height="50" width="150">&nbsp;&nbsp;&nbsp;
+  <img src="https://th.bing.com/th/id/OIP.0ZBEYUlqJorO3bsjmOGxUQHaEC?w=332&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" height="50" width="150">
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

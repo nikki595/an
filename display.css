@@ -1,0 +1,17 @@
+#P1{
+    display: inline;
+  
+    background-color: aqua;
+}
+#P2{
+    display:inline-block;
+    background-color: rgb(237, 207, 12);
+}
+#P3{
+    display:block;
+    background-color: rgb(95, 241, 50);
+}
+#P4{
+    display:grid;
+    background-color: rgb(242, 73, 223);
+}
